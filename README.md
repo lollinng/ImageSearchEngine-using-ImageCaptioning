@@ -16,7 +16,7 @@ cd ImageSearchEngine-using-ImageCaptioning
 ### 2. Add pretraind model trained by us
 
 ```
-# Create a utils folder inside application and save this two files inside it
+# Create a 'Utils' folder inside application and save this two files inside it
 https://drive.google.com/drive/folders/166t7yl4Lj7pmlsaKOeWAqqWboNv0XJm3
 ```
 
