@@ -20,7 +20,7 @@ cd ImageSearchEngine-using-ImageCaptioning
 https://drive.google.com/drive/folders/166t7yl4Lj7pmlsaKOeWAqqWboNv0XJm3
 ```
 
-### 5. Run the flask application
+### 3. Run the flask application
 
 ```
 python run.py
