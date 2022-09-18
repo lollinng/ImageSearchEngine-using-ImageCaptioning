@@ -1,4 +1,5 @@
-# SerchEngine-using-ImageCaptioning
+# ImageSearchEngine-using-ImageCaptioning
+
 A search engine created to rank images using the query of user and the text generated using Image Captioning from our attention model . 
 
 # Usage
@@ -7,7 +8,8 @@ A search engine created to rank images using the query of user and the text gene
 
 ```
 git clone <https://github.com/lollinng/ImageSearchEngine-using-ImageCaptioning.git>
-cd SearchEngine-using-ImageCaptioning
+cd ImageSearchEngine-using-ImageCaptioning
+
 
 ```
 
