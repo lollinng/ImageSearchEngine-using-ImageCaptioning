@@ -1,0 +1,46 @@
+{% include 'base.html' %} {% block body %}
+
+<div class="container">
+	<div class="col">
+		<div class="col md-12">
+			<div class="jumbotron p-3">
+				<h2>
+					Type a <b>Filtering Query for Images</b>
+					<form class="form-inline float-right" method="POST" action="{{url_for('home')}}">
+						<input class="form-control mr-sm-14" type="search" name="query" placeholder="Search" aria-label="Search" />
+						<button class="btn btn-warning btn-xs" type="submit">Search</button>
+					</form>
+				</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+{%if values != None%}
+<div class="container">
+	<div class="row">
+		<div class="col md-12">
+			<div class="jumbotron p-3">
+				<table class="table table-hover table-dark">
+					<tr>
+						<th style="text-align: center">Rank</th>
+						<th style="text-align: center">Percentage match</th>
+						<th style="text-align: center">Model prediction</th>
+						<th style="text-align: center">Image Photo</th>
+					</tr>
+					{% for row in range(values | length)%}
+					<tr>
+						<td style="text-align: center">{{ row+1}}</td>
+						<td style="text-align: center">{{ values[row][0]}}</td>
+						<td style="text-align: center">{{ values[row][1]}}</td>
+						<td>
+							<img src="{{ url_for('static', filename='test/' + values[row][2])}}" width="200" height="100" />
+						</td>
+						{%endfor%}
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+{%endif%} {% endblock %}
