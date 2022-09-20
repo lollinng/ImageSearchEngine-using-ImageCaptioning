@@ -1,1 +1,3 @@
 application/Utils/*
+__pycache__/
+try/

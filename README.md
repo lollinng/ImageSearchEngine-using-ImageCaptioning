@@ -1,10 +1,8 @@
 # ImageSearchEngine-using-ImageCaptioning
 
-A search engine created to rank images using the query of user and the text generated using Image Captioning from our attention model . 
+A search engine created to rank images using the query of user and the text generated using Image Captioning from our attention model .
 
-![Screenshot (347)](https://user-images.githubusercontent.com/55660103/191085547-9a050fc4-9c80-4641-9f40-24f694cc9b01.png)
-
-
+![plot](output_images/1.png)
 
 # Usage
 
